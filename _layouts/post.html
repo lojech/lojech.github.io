@@ -64,11 +64,11 @@ post_class: post-template
             <!-- If we want to display author's name and bio -->
             {% if site.author %}
                 <figure class="author-image">
-                  <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/{{post.author}}.jpg)">
-                    <span class="hidden">{{post.author}}'s Picture</span></a>
+                  <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/{{page.author}}.jpg)">
+                    <span class="hidden">{{page.author}}'s Picture</span></a>
                 </figure>
                 <section class="author">
-                    <h4> {{ post.author }} </h4>
+                    <h4> {{ page.author }} </h4>
                 </section>
             {% endif %}
 
