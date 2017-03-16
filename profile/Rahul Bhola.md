@@ -1,6 +1,5 @@
 ---
 layout: profile
-title:  "Welcome to Jekyll!"
 published: true
 author: Rahul Bhola
 ---

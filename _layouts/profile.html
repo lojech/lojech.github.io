@@ -10,8 +10,14 @@ post_class: post-template page-template
 
 
 <main class="content" role="main">
+
     <article class="post">
-        <h1 class="post-title">{{ page.title }}</h1>
+      <figure class="author-image">
+        <a class="img" href="{{ site.baseurl }}" style="background-image: url('/assets/images/{{page.author}}.jpg')">
+         <span class="hidden">{{page.author}}'s Picture</span></a>
+       </figure>
+ 
+        <h1 class="post-title">{{ page.author }}</h1>
         <section class="post-content">
             {{content}}
         </section>
