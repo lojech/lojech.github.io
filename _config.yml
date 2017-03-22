@@ -17,4 +17,15 @@ author:         'Rahul Bhola'
 gems:
   - jekyll-seo-tag
 
+twitter:
+  username: Lojech77
+
+social:
+  name: lojech
+  links:
+    - https://twitter.com/Lojech77
+    - https://github.com/lojech
+    - https://www.instagram.com/lojech77
+    - https://www.facebook.com/Lojech-543531499179568
+
 theme: jekyll-theme-minimal
