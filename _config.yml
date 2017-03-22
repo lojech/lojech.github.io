@@ -15,4 +15,4 @@ gems: [jekyll-paginate]
 url:            'blog url'
 author:         'Rahul Bhola'
 
-theme: jekyll-theme-merlot
+theme: jekyll-theme-minimal
