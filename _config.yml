@@ -13,7 +13,7 @@ gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'blog url'
-author:         'Rahul Bhola'
+author:         'theRahulBhola'
 gems:
   - jekyll-seo-tag
 
